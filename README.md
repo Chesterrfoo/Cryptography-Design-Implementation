@@ -1,2 +1,3 @@
 # Cryptography-Design-Implementation
-This repository contains all the cipher design source codes for this project. Check out README file to understand the instructions on running the code.
+This repository contains the full implementation and demonstration for the Computer Security 2025 Assignment.
+It includes custom-designed symmetric ciphers and a hybrid cryptography proposal for a secure chat application.
