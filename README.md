@@ -73,7 +73,7 @@ Success: Decryption matches original plaintext.
 
 ---
 
-## 🪽 Running WingsDings (Block Cipher)
+## 🦅 Running WingsDings (Block Cipher)
 
 **File:** `Block_Cipher.ipynb`
 **Concept:** Feistel-based block cipher that uses SHA-256 to generate round keys and PKCS#7 padding for multi-block messages.
