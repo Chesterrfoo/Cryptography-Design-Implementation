@@ -2,7 +2,7 @@
 
 # 🧠 Computer Security – September 2025 Assignment
 
-**Members:** Muhammad Fakhrul Hafiz, Mohammad Tsaqif. Mohamad Syamil, Foo Zhe Cheng
+**Members:** Muhammad Fakhrul Hafiz, Mohammad Tsaqif, Mohamad Syamil, Foo Zhe Cheng
 
 **Course:** Computer Security
 
@@ -117,7 +117,7 @@ Success: Decryption matches original plaintext.
 [+] Message encrypted successfully.
 [3] Bob decrypts the incoming message...
 Decrypted message: There is someone in your house
-✅ Success: Message decrypted correctly.
+Success: Message decrypted correctly.
 ```
 
 ---
