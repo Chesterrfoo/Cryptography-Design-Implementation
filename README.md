@@ -56,7 +56,7 @@ Run this cell first in your Colab notebook:
 
 ### ▶️ Steps in Colab:
 
-1. Upload or open the `mangotango_stream_cipher.ipynb` file in Colab.
+1. Upload or open the `Stream_Cipher.ipynb` file in Colab.
 2. Run all cells in sequence.
 3. Enter your plaintext when prompted.
 
@@ -80,7 +80,7 @@ Success: Decryption matches original plaintext.
 
 ### ▶️ Steps in Colab:
 
-1. Upload or open the file `wingsdings_block_cipher.ipynb` in Colab.
+1. Upload or open the file `Block_Cipher.ipynb` in Colab.
 2. Run each cell from top to bottom.
 3. Input your message when prompted.
 
@@ -104,7 +104,7 @@ Success: Decryption matches original plaintext.
 
 ### ▶️ Steps in Colab:
 
-1. Upload or open `hybrid_secure_chat.ipynb` in Colab.
+1. Upload or open `Hybrid_Demo_Secure_Chat.ipynb` in Colab.
 2. Run the notebook step-by-step.
 3. Enter a message when prompted — it will be encrypted by “Alice” and decrypted by “Bob”.
 
