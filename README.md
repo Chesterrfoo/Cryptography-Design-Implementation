@@ -62,10 +62,10 @@ Run this cell first in your Colab notebook:
 
 ```
 ===== MangoTango Stream Cipher Demo =====
-Enter plaintext to encrypt: goodmorning
+Enter plaintext to encrypt: Good morning
 [+] Encryption complete!
 Ciphertext (hex): 8a5e3a12bcd9f12f
-Decrypted text:   goodmorning
+Decrypted text:   Good morning
 Success: Decryption matches original plaintext.
 ```
 
@@ -86,10 +86,10 @@ Success: Decryption matches original plaintext.
 
 ```
 ===== WingsDings Block Cipher Demo =====
-Enter plaintext to encrypt: pussy cat
+Enter plaintext to encrypt: Careful who is behind you..
 [+] Encryption complete!
 Ciphertext (hex): 94e84af08f37d2f1a81c7841
-Decrypted text:   pussycat
+Decrypted text:   Careful who is behind you..
 Success: Decryption matches original plaintext.
 ```
 
@@ -111,10 +111,10 @@ Success: Decryption matches original plaintext.
 ```
 ===== Hybrid Cryptography Demo – Secure Chat =====
 [1] Generating RSA key pair for Bob...
-[2] Alice enters message to send securely: Hello Bob, this is a secure message.
+[2] Alice enters message to send securely: There is someone in your house
 [+] Message encrypted successfully.
 [3] Bob decrypts the incoming message...
-Decrypted message: Hello Bob, this is a secure message.
+Decrypted message: There is someone in your house
 ✅ Success: Message decrypted correctly.
 ```
 
@@ -124,10 +124,16 @@ Decrypted message: Hello Bob, this is a secure message.
 
 ```
 .
-├── Stream_Cipher.ipynb                      # Stream cipher demo (MangoTango)
-├── Block_Cipher.ipynb                       # Block cipher demo (WingsDings)
-├── Hybrid_Demo_Secure_Chat.ipynb            # Hybrid cryptography demo (RSA + WingsDings)
-└── README.md                                # Documentation
+├── Stream_Cipher.ipynb                                         # MangoTango stream cipher 
+├── Block_Cipher.ipynb                                          # WingsDings block cipher
+├── Hybrid_Demo_Secure_Chat.ipynb                               # Hybrid cryptography demo 
+│
+├── MangoTango.drawio.png                                       # Stream cipher design diagram
+├── WingsDing.drawio.png                                        # Block cipher Feistel structure diagram
+├── Hybrid Cryptography Workflow Diagram_Secure Chat.drawio.png  # Hybrid workflow diagram
+│
+└── README.md                                                   # Documentation and instructions
+
 ```
 
 ---
