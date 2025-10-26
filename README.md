@@ -2,6 +2,8 @@
 
 # 🧠 Computer Security – September 2025 Assignment
 
+**Members:** Muhammad Fakhrul Hafiz, Mohammad Tsaqif. Mohamad Syamil, Foo Zhe Cheng
+
 **Course:** Computer Security
 
 **Date:** 26th October 2025
