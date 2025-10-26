@@ -3,6 +3,7 @@
 # 🧠 Computer Security – September 2025 Assignment
 
 **Course:** Computer Security
+
 **Date:** 26th October 2025
 
 ---
@@ -18,9 +19,9 @@ Each section demonstrates a different encryption concept using **custom-designed
 
 | Part    | Title                                        | Description                                                                                                   |
 | ------- | -------------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
-| **A.1** | 🥭 **MangoTango (Stream Cipher)**            | Custom stream cipher using dual LFSRs and nonlinear keystream generation.                                     |
-| **A.2** | 🪽 **WingsDings (Block Cipher)**             | 64-bit Feistel-based block cipher using SHA-256-derived subkeys.                                              |
-| **B**   | 🔐 **Hybrid Secure Chat (RSA + WingsDings)** | Demonstrates hybrid cryptography combining asymmetric and symmetric encryption in a secure messaging context. |
+| **A.1** |  **MangoTango (Stream Cipher)**            | Custom stream cipher using dual LFSRs and nonlinear keystream generation.                                     |
+| **A.2** |  **WingsDings (Block Cipher)**             | 64-bit Feistel-based block cipher using SHA-256-derived subkeys.                                              |
+| **B**   |  **Hybrid Secure Chat (RSA + WingsDings)** | Demonstrates hybrid cryptography combining asymmetric and symmetric encryption in a secure messaging context. |
 
 ---
 
@@ -48,7 +49,7 @@ Run this cell first in your Colab notebook:
 
 ## 🥭 Running MangoTango (Stream Cipher)
 
-**File:** `mangotango_stream_cipher.ipynb`
+**File:** `Stream_Cipher.ipynb`
 **Concept:** Original stream cipher demonstrating keystream generation, encryption, and decryption.
 
 ### ▶️ Steps in Colab:
@@ -61,18 +62,18 @@ Run this cell first in your Colab notebook:
 
 ```
 ===== MangoTango Stream Cipher Demo =====
-Enter plaintext to encrypt: hello world
+Enter plaintext to encrypt: goodmorning
 [+] Encryption complete!
 Ciphertext (hex): 8a5e3a12bcd9f12f
-Decrypted text:   hello world
-✅ Success: Decryption matches original plaintext.
+Decrypted text:   goodmorning
+Success: Decryption matches original plaintext.
 ```
 
 ---
 
 ## 🪽 Running WingsDings (Block Cipher)
 
-**File:** `wingsdings_block_cipher.ipynb`
+**File:** `Block_Cipher.ipynb`
 **Concept:** Feistel-based block cipher that uses SHA-256 to generate round keys and PKCS#7 padding for multi-block messages.
 
 ### ▶️ Steps in Colab:
@@ -85,18 +86,18 @@ Decrypted text:   hello world
 
 ```
 ===== WingsDings Block Cipher Demo =====
-Enter plaintext to encrypt: Secure message
+Enter plaintext to encrypt: pussy cat
 [+] Encryption complete!
 Ciphertext (hex): 94e84af08f37d2f1a81c7841
-Decrypted text:   Secure message
-✅ Success: Decryption matches original plaintext.
+Decrypted text:   pussycat
+Success: Decryption matches original plaintext.
 ```
 
 ---
 
 ## 🔐 Running Hybrid Cryptography Demo (Secure Chat)
 
-**File:** `hybrid_secure_chat.ipynb`
+**File:** `Hybrid_Demo_Secure_Chat.ipynb`
 **Concept:** Combines RSA (asymmetric) for key exchange with WingsDings (symmetric) for fast message encryption. Demonstrates hybrid cryptography for a secure chat application.
 
 ### ▶️ Steps in Colab:
@@ -123,10 +124,10 @@ Decrypted message: Hello Bob, this is a secure message.
 
 ```
 .
-├── mangotango_stream_cipher.ipynb      # Stream cipher demo (MangoTango)
-├── wingsdings_block_cipher.ipynb       # Block cipher demo (WingsDings)
-├── hybrid_secure_chat.ipynb            # Hybrid cryptography demo (RSA + WingsDings)
-└── README.md                           # Documentation
+├── Stream_Cipher.ipynb                      # Stream cipher demo (MangoTango)
+├── Block_Cipher.ipynb                       # Block cipher demo (WingsDings)
+├── Hybrid_Demo_Secure_Chat.ipynb            # Hybrid cryptography demo (RSA + WingsDings)
+└── README.md                                # Documentation
 ```
 
 ---
